@@ -1,16 +1,15 @@
 
-# NekoRoX Foobar2000 Theme #
+# AlphaRoX Foobar2000 Theme #
 
-![](https://github.com/catlinman/foobar2000/blob/master/preview.png)
+![](https://github.com/zealsprince/foobar2000/blob/master/preview.png)
 
 _**The ultimate Foobar2000 theme to get you started.**_
 
-NekoRoX is a fork of CaTRoX that includes a lot of custom
-panels, plugins and quality of life modules.
+AlphaRoX is a fork of NekoRoX which is a fork of CaTRoX that includes a lot of custom panels, plugins and quality of life modules.
 
 *What's included?*
 
-- Clean and dark interface with neko-stylings.
+- Clean and bright interface.
 - Easy navigation and rearrangement of panels.
 - Tree and filter based navigation.
 - Mini and micro player modes.
@@ -28,7 +27,7 @@ panels, plugins and quality of life modules.
 ## Installation ##
 
 If at any point you make changes to the interface and wish to reset: There's
-an included layout file in the theme directory called *NekoRoX.fcl* which you
+an included layout file in the theme directory called *AlphaRoX.fcl* which you
 can load via *ColumnsUI* to reset everything to the way it was intended.
 
 Once you have completed the steps further below, make sure to install the fonts
