@@ -26,7 +26,7 @@ var g_art_module_fonts = {
 
 /** @type {Object<string, number>} */
 var g_art_module_colors = {};
-g_art_module_colors.title = _.RGB(70, 70, 70);
+g_art_module_colors.title = _.RGB(185, 185, 185);
 g_art_module_colors.box = g_art_module_colors.title;
 
 /**
@@ -972,10 +972,10 @@ function Thumbs(cover_switch_callback_arg) {
                 g.DrawRect(x, y, w - 1, h - 1, 1, frame_color);
                 break;
             case 1:
-                g.DrawRect(x, y, w - 1, h - 1, 1, _.RGB(170, 172, 174));
+                g.DrawRect(x, y, w - 1, h - 1, 1, _.RGB(85, 85, 85));
                 break;
             case 2:
-                g.DrawRect(x, y, w - 1, h - 1, 1, _.RGB(70, 70, 70));
+                g.DrawRect(x, y, w - 1, h - 1, 1, _.RGB(185, 185, 185));
                 break;
         }
 

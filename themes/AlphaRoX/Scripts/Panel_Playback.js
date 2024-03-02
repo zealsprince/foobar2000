@@ -131,9 +131,9 @@ function PlaybackPanel() {
             var w = volume_bar_obj.w;
             var h = volume_bar_obj.h;
 
-            var slider_back_color = _.RGB(37, 37, 37);
-            var slider_bar_color = _.RGB(190, 192, 194);
-            var frame_color = _.RGB(200, 200, 200);
+            var slider_back_color = _.RGB(220, 220, 220);
+            var slider_bar_color = _.RGB(75, 75, 75);
+            var frame_color = _.RGB(55, 55, 55);
 
             gr.DrawRect(x - 2, y + p - 2, w + 3, h - p * 2 + 3, 1.0, frame_color);
             gr.FillSolidRect(x, y + p, w, h - p * 2, slider_back_color);
@@ -371,9 +371,9 @@ function PlaybackPanel() {
         var fontAwesome = gdi.Font('FontAwesome', 14);
         var default_ico_colors =
             [
-                _.RGB(110, 112, 114),
-                _.RGB(190, 192, 194),
-                _.RGB(90, 90, 90)
+                _.RGB(145, 145, 145),
+                _.RGB(75, 75, 75),
+                _.RGB(165, 165, 165)
             ];
 
         var btn =

@@ -105,39 +105,39 @@ var g_pl_colors = {};
 //---> Common
 g_pl_colors.background = g_theme.colors.panel_back;
 //---> Playlist Manager
-g_pl_colors.playlist_mgr_text_normal = _.RGB(150, 152, 154);
-g_pl_colors.playlist_mgr_text_hovered = _.RGB(200, 202, 204);
-g_pl_colors.playlist_mgr_text_pressed = _.RGB(120, 122, 124);
+g_pl_colors.playlist_mgr_text_normal = _.RGB(105, 105, 105);
+g_pl_colors.playlist_mgr_text_hovered = _.RGB(55, 55, 55);
+g_pl_colors.playlist_mgr_text_pressed = _.RGB(135, 135, 135);
 //---> Header
-g_pl_colors.group_title = _.RGB(180, 182, 184);
+g_pl_colors.group_title = _.RGB(75, 75, 75);
 g_pl_colors.group_title_selected = g_pl_colors.group_title;
 g_pl_colors.artist_normal = g_pl_colors.group_title;
 g_pl_colors.artist_playing = g_pl_colors.artist_normal;
-g_pl_colors.album_normal = _.RGB(130, 132, 134);
+g_pl_colors.album_normal = _.RGB(125, 125, 125);
 g_pl_colors.album_playing = g_pl_colors.album_normal;
-g_pl_colors.info_normal = _.RGB(130, 132, 134);
+g_pl_colors.info_normal = _.RGB(125, 125, 125);
 g_pl_colors.info_playing = g_pl_colors.info_normal;
-g_pl_colors.date_normal = _.RGB(130, 132, 134);
+g_pl_colors.date_normal = _.RGB(125, 125, 125);
 g_pl_colors.date_playing = g_pl_colors.date_normal;
 g_pl_colors.line_normal = g_theme.colors.panel_line;
 g_pl_colors.line_playing = g_pl_colors.line_normal;
 g_pl_colors.line_selected = g_theme.colors.panel_line_selected;
 //---> Row
-g_pl_colors.title_selected = _.RGB(160, 162, 164);
-g_pl_colors.title_playing = _.RGB(255, 165, 0);
+g_pl_colors.title_selected = _.RGB(95, 95, 95);
+g_pl_colors.title_playing = _.RGB(0, 0, 0);
 g_pl_colors.title_normal = g_theme.colors.panel_text_normal;
-g_pl_colors.count_normal = _.RGB(120, 122, 124);
+g_pl_colors.count_normal = _.RGB(125, 125, 125);
 g_pl_colors.count_selected = g_pl_colors.title_selected;
 g_pl_colors.count_playing = g_pl_colors.title_playing;
-g_pl_colors.row_selected = _.RGB(35, 35, 35);
-g_pl_colors.row_alternate = _.RGB(20, 20, 20);
+g_pl_colors.row_selected = _.RGB(220, 220, 220);
+g_pl_colors.row_alternate = _.RGB(225, 225, 225);
 g_pl_colors.row_focus_selected = g_theme.colors.panel_line_selected;
-g_pl_colors.row_focus_normal = _.RGB(80, 80, 80);
-g_pl_colors.row_queued = _.RGBA(150, 150, 150, 0);
-g_pl_colors.row_drop_position = _.RGB(140, 142, 144);
-g_pl_colors.row_drop_position_boundary = _.RGB(255, 165, 0);
+g_pl_colors.row_focus_normal = _.RGB(175, 175, 175);
+g_pl_colors.row_queued = _.RGBA(105, 105, 105, 0);
+g_pl_colors.row_drop_position = _.RGB(115, 115, 115);
+g_pl_colors.row_drop_position_boundary = _.RGB(0, 0, 0);
 //---> Misc
-g_pl_colors.dummy_text = _.RGB(80, 80, 80);
+g_pl_colors.dummy_text = _.RGB(175, 175, 175);
 
 var mouse_move_suppress = new qwr_utils.MouseMoveSuppress();
 var key_down_suppress = new qwr_utils.KeyModifiersSuppress();

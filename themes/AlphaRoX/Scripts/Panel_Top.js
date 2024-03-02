@@ -26,7 +26,7 @@ var g_top_panel_fonts = {
 
 /** @type {Object<string, number>} */
 var g_top_panel_colors = {
-    info: _.RGB(170, 172, 174)
+    info: _.RGB(75, 75, 75)
 };
 
 var mouse_move_suppress = new qwr_utils.MouseMoveSuppress();
@@ -338,23 +338,23 @@ function TopPanel() {
 
         var default_ico_colors =
             [
-                _.RGB(150, 152, 154),
-                _.RGB(190, 192, 194),
-                _.RGB(90, 90, 90)
+                _.RGB(150, 150, 150),
+                _.RGB(125, 125, 125),
+                _.RGB(225, 225, 225)
             ];
 
         var accented_ico_colors =
             [
-                _.RGB(182, 158, 44), // _.RGBA(255, 220, 55, 155) + g_theme.colors.pss_back
-                _.RGB(234, 202, 53), // _.RGBA(255, 220, 55, 225) + g_theme.colors.pss_back
-                _.RGB(141, 122, 38)  // _.RGBA(255, 220, 55, 105) + g_theme.colors.pss_back
+                _.RGB(125, 125, 125), // _.RGBA(255, 220, 55, 155) + g_theme.colors.pss_back
+                _.RGB(100, 100, 100), // _.RGBA(255, 220, 55, 225) + g_theme.colors.pss_back
+                _.RGB(200, 200, 200)  // _.RGBA(255, 220, 55, 105) + g_theme.colors.pss_back
             ];
 
         var default_ellipse_colors =
             [
-                _.RGB(70, 70, 70),
-                _.RGB(190, 195, 200),
-                _.RGB(80, 80, 80)
+                _.RGB(150, 150, 150),
+                _.RGB(125, 125, 125),
+                _.RGB(225, 225, 225)
             ];
 
         var btn = {

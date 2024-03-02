@@ -144,9 +144,9 @@ function BottomPanel() {
         gr.FillSolidRect(this.x, this.y, this.w, this.h, g_theme.colors.pss_back);
         gr.SetTextRenderingHint(TextRenderingHint.ClearTypeGridFit);
 
-        var slider_back_color = _.RGB(37, 37, 37);
-        var slider_bar_color = _.RGB(110, 112, 114);
-        var slider_bar_hover_color = _.RGB(151, 153, 155);
+        var slider_back_color = _.RGB(218, 218, 218);
+        var slider_bar_color = _.RGB(145, 145, 145);
+        var slider_bar_hover_color = _.RGB(100, 100, 100);
 
         // SeekBar
         {
@@ -188,7 +188,7 @@ function BottomPanel() {
                 }
             }
 
-            var slider_text_color = (fb.IsPlaying ? _.RGB(130, 132, 134) : _.RGB(80, 80, 80));
+            var slider_text_color = (fb.IsPlaying ? _.RGB(125, 125, 125) : _.RGB(175, 175, 175));
             var seekbar_text_font = gdi.Font('Consolas', 14, 1);
             gr.DrawString(seekbar_time_1, seekbar_text_font, slider_text_color, seek_x - seekbar_text_w, seek_y - 1, seekbar_text_w, seek_h, g_string_format_center.value());
             gr.DrawString(seekbar_time_2, seekbar_text_font, slider_text_color, seek_x + seek_w, seek_y - 1, seekbar_text_w, seek_h, g_string_format_center.value());

@@ -48,13 +48,13 @@ var g_tr_i_fonts = {
 
 var g_tr_i_colors = {
     background:       g_theme.colors.panel_back,
-    row_alternate:    _.RGB(35, 35, 35),
+    row_alternate:    _.RGB(220, 220, 220),
     row_pressed:      g_theme.colors.panel_line_selected,
-    row_pressed_rect: _.RGB(80, 80, 80),
+    row_pressed_rect: _.RGB(175, 175, 175),
     line_color:       g_theme.colors.panel_line,
-    info_name:        _.RGB(160, 162, 164),
+    info_name:        _.RGB(95, 95, 95),
     info_value:       g_theme.colors.panel_text_normal,
-    dummy_text:       _.RGB(70, 70, 70)
+    dummy_text:       _.RGB(185, 185, 185)
 };
 
 var mouse_move_suppress = new qwr_utils.MouseMoveSuppress();

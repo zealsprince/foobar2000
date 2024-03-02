@@ -99,7 +99,7 @@ var g_menu_fonts = {
 
 /** @type {Object<string, number>} */
 var g_menu_colors = {
-    title: _.RGBA(240, 242, 244, 120)
+    title: _.RGBA(15, 15, 15, 120)
 };
 
 var WindowState =
@@ -654,23 +654,23 @@ function Menu() {
 
         var default_menu_text_colors =
             [
-                _.RGB(140, 142, 144),
-                _.RGB(180, 182, 184),
-                _.RGB(120, 122, 124)
+                _.RGB(140, 140, 140),
+                _.RGB(180, 180, 180),
+                _.RGB(120, 120, 120)
             ];
 
         var default_menu_rect_colors =
             [
-                _.RGB(120, 122, 124),
-                _.RGB(170, 172, 174),
-                _.RGB(110, 112, 114)
+                _.RGB(120, 120, 120),
+                _.RGB(170, 170, 170),
+                _.RGB(110, 110, 110)
             ];
 
         var default_ico_colors =
             [
-                _.RGB(140, 142, 144),
-                _.RGB(190, 192, 194),
-                _.RGB(100, 102, 104)
+                _.RGB(140, 140, 140),
+                _.RGB(190, 190, 190),
+                _.RGB(100, 100, 100)
             ];
 
         var btn =

@@ -148,7 +148,7 @@ List.prototype.on_paint = function (gr) {
         text_format.trimming = StringTrimming.ellipsis_char;
         text_format.format_flags = StringFormatFlags.no_wrap;
 
-        gr.DrawString('No rows to display', gdi.Font('Segoe Ui Semibold', 24), _.RGB(70, 70, 70), this.x, this.y, this.w, this.h, text_format.value());
+        gr.DrawString('No rows to display', gdi.Font('Segoe Ui Semibold', 24), _.RGB(185, 185, 185), this.x, this.y, this.w, this.h, text_format.value());
     }
 
     if (this.is_scrollbar_available) {

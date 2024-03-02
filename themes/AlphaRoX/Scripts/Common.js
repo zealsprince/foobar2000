@@ -6,18 +6,18 @@
 //<editor-fold desc="Global constants">
 
 var g_theme = {};
-g_theme.name = 'NekoRoX';
+g_theme.name = 'AlphaRoX';
 g_theme.version = '';
-g_theme.folder_name = 'NekoRoX';
+g_theme.folder_name = 'AlphaRoX';
 g_theme.script_folder = 'themes\\' + g_theme.folder_name + '\\Scripts\\';
 
 g_theme.colors = {};
-g_theme.colors.pss_back = _.RGB(12, 12, 12);
-g_theme.colors.panel_back = _.RGB(15, 15, 15);
-g_theme.colors.panel_front = _.RGB(30, 30, 30);
-g_theme.colors.panel_line = _.RGB(55, 55, 55);
+g_theme.colors.pss_back = _.RGB(243, 243, 243);
+g_theme.colors.panel_back = _.RGB(240, 240, 240);
+g_theme.colors.panel_front = _.RGB(225, 225, 225);
+g_theme.colors.panel_line = _.RGB(200, 200, 200);
 g_theme.colors.panel_line_selected = g_theme.colors.panel_line;
-g_theme.colors.panel_text_normal = _.RGB(128, 128, 128);
+g_theme.colors.panel_text_normal = _.RGB(55, 55, 55);
 
 /** @enum{number} */
 var g_font_style = {
